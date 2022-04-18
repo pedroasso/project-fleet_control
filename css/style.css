@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+    background-color:#D6EAF8;
+}
+
+.titulo{
+    color: #212F3D;
+    font-family:sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div-btn{
+    width: 20%;
+}
+
+.btn1{
+    background-color:#212F3D;
+    font-size: 30px;
+}
