@@ -17,7 +17,7 @@
         <h1 class="titulo">Cadastro de Veiculos</h1>
     </header>
     Escolha a Marca:
-    <select id="s1" name="s1" onchange="populate('s1','s2')">
+    <select id="s1" name="s1" onchange="populateModel('s1','s2')">
         <option value=""></option>
         <option value="Fiat">Fiat</option>
         <option value="Jeep">Jeep</option>
@@ -30,8 +30,14 @@
     <select id="s2" name="s2" onchange="populateVersion('s2','s3')"></select>
     <hr />
     Escolha a Versão:
-    <select id="s3" name="s3"></select>
+    <select id="s3" name="s3" onchange="populateEngine('s3','s4')"></select>
     <hr />
+    Escolha a Motorização:
+    <select id="s4" name="s4"></select>
+    <!-- <hr />
+    Escolha o Câmbio:
+    <select id="s5" name="s5"></select>
+    <hr /> -->
 
     <script src="../js/script.js"></script>
 
